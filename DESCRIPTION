@@ -1,0 +1,18 @@
+Package: cac
+Title: Cox-assisted Clustering
+Version: 1.0
+Authors@R: c(
+    person("Michael", "Wurm", email = "wurm@wisc.edu", role = c("aut", "cre")),
+    person("Bret", "Hanlon", email = "hanlon@stat.wisc.edu", role = "ths"))
+Description: Fits a semiparametric finite mixture of Cox regressions model for survival data. 
+Depends: R (>= 3.3.3)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    survival (>= 2.41-2),
+    utils (>= 3.3.3),
+    stats (>= 3.3.3)
+Suggests:
+    testthat (>= 1.0.2)
+RoxygenNote: 6.0.1
